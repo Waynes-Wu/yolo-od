@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['bread', 'chicken', 'crab', 'egg']
+
+roboflow:
+  workspace: tyml
+  project: fsl-p6yz7
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/tyml/fsl-p6yz7/dataset/2
